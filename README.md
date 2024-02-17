@@ -11,6 +11,7 @@ The drone then tries to follow the path. If it encounters an obstacle, it has tw
 Once the drone has completed its journey, it returns to the admin.
 
 the drone uses a Rapidly-exploring Random Tree (RRT) algorithm, which is a common method for planning paths in uncertain environments.
+the code for basic implementation can be found at ```src/commandAndControl/pathPlanning.go```
 
 ### Monitoring and Control
 1. **Drone Software**
