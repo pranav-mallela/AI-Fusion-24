@@ -3,6 +3,14 @@ Our submission for the event AI Fusion in IITRPR Advitiya 2024
 
 ## Command and Control Sub Systems
 ### Path Planning 
+The process starts with an admin allocating a suitable path to the drone. This path is likely based on factors like the drone's battery life, the terrain, and any obstacles that need to be avoided.
+The drone then tries to follow the path. If it encounters an obstacle, it has two options:
+
+- It can try to reroute itself around the obstacle, based on a certain tolerance for deviation from the original path. This tolerance is likely set by the admin to balance the importance of following the path exactly with the need to be flexible in the face of obstacles.
+- If the obstacle is too large or complex to reroute around, the drone may need to return to the admin for further instructions.
+Once the drone has completed its journey, it returns to the admin.
+
+the drone uses a Rapidly-exploring Random Tree (RRT) algorithm, which is a common method for planning paths in uncertain environments.
 
 ### Monitoring and Control
 1. **Drone Software**
