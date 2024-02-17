@@ -6,9 +6,11 @@ Our submission for the event AI Fusion in IITRPR Advitiya 2024
 
 ### Monitoring and Control
 **Drone Software**
+
 **Drone Object (Central Element):**
 - The central green box represents the core entity in the drone system.
 - It interacts with various components and readings related to drone operation.
+  
 **Components Connected to the Drone Object:**
 - **Drone Parts Status:** Provides an overview of the working condition of essential drone parts.
 - **LIDAR Reading:** Collects data from Light Detection and Ranging sensors for mapping and navigation.
@@ -18,10 +20,12 @@ Our submission for the event AI Fusion in IITRPR Advitiya 2024
 - **Payload Capacity:** Represents the maximum weight the drone can carry during flights.
 
 **Drone Monitoring Portal:**
+
 **User Display:**
 - It could display real-time data, alerts, or relevant information related to the system being monitored.
 **Interrupt System:**
 - It may trigger alerts, halt processes, or take corrective actions based on predefined rules. For example, if critical parameters exceed safe limits, the Interrupt System could initiate emergency procedures.
+
 ## Guidance and Navigation Sub-Systems
 
 ### Guidance System
