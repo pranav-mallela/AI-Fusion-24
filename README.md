@@ -15,7 +15,17 @@ Our submission for the event AI Fusion in IITRPR Advitiya 2024
 
 ## Drone Sub Systems
 
-### Drone Hardware
+### Safety Subsystems
+**Security and Encryption:**
+
+- **Communication security:** Use of strong encryption protocols like AES or ChaCha20 for all communication between the drone, ground control, and any intermediate relays is essential. This protects data like flight path, payload information, and user details from eavesdropping.
+- **Data encryption at rest**: It is crucial to encrypt sensitive data stored on the drone itself, even if it's temporary, to prevent unauthorized access if the drone is intercepted.
+
+**Physical Security:**
+
+- **Tamper-evident seals and enclosures:** The drone can be designed with tamper-evident seals and enclosures that trigger alerts or self-destruct mechanisms if tampered with.
+- **Geofencing and no-fly zones:** Set virtual boundaries to restrict drone operation in sensitive areas and prevent unauthorized access to specific locations. This can be implemented using GPS and geofencing algorithms in drone Guidanc subsytems.
+- **Kill switch and remote disabling:** It will be prudent to implement a kill switch or remote disabling mechanism to deactivate the drone in case of security breaches or emergencies.
 
 ### Payload System
 Maintaining specific temperatures for sensitive medications during drone delivery is crucial. Here are some methods and potential algorithms:
