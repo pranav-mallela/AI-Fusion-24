@@ -9,9 +9,19 @@ Our submission for the event AI Fusion in IITRPR Advitiya 2024
 
 ## Guidance and Navigation Sub Systems
 
-### Guidance System
+### Guidance System & Navigation System
+The guidance system consists of four submodules:
+1. Danger Detection
+    - Intruder detection using YOLOv4
+    - Weapon detection using YOLOv4
+2. Flight Control:
+    - LIDAR based obstacle avoidance
+3. Command Center Path:
+    - Path planning using RRT* algorithm and GPS
+4. SOS:
+    - This is used in case the drone is unable to handle the current situation and needs human intervention.
 
-### Navigation System
+The basic implementation for this logic can be found at `./GuidanceNav`. It was done in python for simplicity.
 
 ## Drone Sub Systems
 
