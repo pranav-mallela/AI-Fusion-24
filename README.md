@@ -5,7 +5,7 @@ Our submission for the event AI Fusion in IITRPR Advitiya 2024
 ### Path Planning 
 
 ### Monitoring and Control
-**Drone Software**
+1. **Drone Software**
 
 **Drone Object (Central Element):**
 - The central green box represents the core entity in the drone system.
@@ -19,7 +19,7 @@ Our submission for the event AI Fusion in IITRPR Advitiya 2024
 - **Route Deviation Tolerance:** Specifies acceptable deviation from pre-planned flight routes.
 - **Payload Capacity:** Represents the maximum weight the drone can carry during flights.
 
-**Drone Monitoring Portal:**
+2. **Drone Monitoring Portal:**
 
 **User Display:**
 - It could display real-time data, alerts, or relevant information related to the system being monitored.
