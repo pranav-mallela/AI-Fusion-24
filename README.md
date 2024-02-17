@@ -16,6 +16,8 @@ Our submission for the event AI Fusion in IITRPR Advitiya 2024
 ## Drone Sub Systems
 
 ### Safety Subsystems
+Since this system is to be used in war zones, it is crucial to have a robust safety system to prevent accidents and protect the drone from hostile attacks and protect any confidential information that the drone may have stored/transmit. Here are some safety subsystems that can be implemented:
+
 **Security and Encryption:**
 
 - **Communication security:** Use of strong encryption protocols like AES or ChaCha20 for all communication between the drone, ground control, and any intermediate relays is essential. This protects data like flight path, payload information, and user details from eavesdropping.
@@ -40,8 +42,8 @@ Maintaining specific temperatures for sensitive medications during drone deliver
 
 Algorithmic methods are can be used to optimize passive and active methods:
 
-- **Predictive algorithms:** Based on weather data, flight duration, and container properties, predict internal temperature and adjust passive elements (e.g., PCM placement) or activate cooling units. 
+- **Predictive algorithms:** Based on weather data, flight duration, and container properties, predict internal temperature and adjust passive elements (e.g., PCM placement) or activate cooling units. A basic implementation can be found at `/src/PayloadSystem/predictiveControl.rs`
 
-- **Adaptive control algorithms:** Monitor internal temperature in real-time and adjust cooling/heating intensity of Peltier devices for precise temperature regulation. A basic implementation can be found at `/src/PayloadSystem/AdaptiveControl.rs`
+- **Adaptive control algorithms:** Monitor internal temperature in real-time and adjust cooling/heating intensity of Peltier devices for precise temperature regulation. A basic implementation can be found at `/src/PayloadSystem/adaptiveControl.rs`
 
 Using a language like Rust is ideal for these algorithms due to its safety and performance, crucial for real-time control systems. Its low overhead and high-level abstractions make it suitable for embedded systems and high-level control algorithms.
